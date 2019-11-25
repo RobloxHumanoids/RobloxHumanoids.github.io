@@ -1,0 +1,44 @@
+# Site config
+site_name: Roblox humanoid bugs
+site_url: https://robloxhumanoids.github.io
+site_description: Documentation for known humanoid bugs
+site_author: Jayden Charbonneau
+
+# Repo config
+repo_name: RobloxHumanoids.github.io
+repo_url: https://github.com/robloxhumanoids/robloxhumanoids.github.io
+edit_uri: ""
+
+# Theme
+theme:
+  name: 'material'
+  palette:
+    primary: 'Light Blue'
+    accent: 'Dark Blue'
+  logo: img/Humanoid_Icon.png
+  feature:
+    tabs: false
+extra_css:
+  - stylesheets/dark_theme.css
+  - stylesheets/codehilite.css
+
+# Navigation
+nav:
+  - Home : index.md
+  - Humanoid Bugs : Bugs.md
+  - Symptoms : Symptoms.md
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - codehilite:
+      linenums: true
+      guess_lang: false
+      pygments_style: 'monokai'
+      noclasses: false
+  - def_list
+  - meta
+  - pymdownx.inlinehilite
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.emoji
