@@ -6,7 +6,7 @@ This website serves as a central knowledgebase to document known bugs with human
 
 ## Contributing
 
-If you know of a humanoid bug and it is not documented here on this site, or you see outdated/missing information, please submit a [pull request](https://github.com/RobloxHumanoids/RobloxHumanoids.github.io/pulls). When submitting pull requests for undocumented humanoid bugs, please be sure to have clear and detailed information about the bug, with a solid reproduction. Please make sure to also a
+If you know of a humanoid bug and it is not documented here on this site, or you see outdated/missing information, please submit a [pull request](https://github.com/RobloxHumanoids/RobloxHumanoids.github.io/pulls). When submitting pull requests for undocumented humanoid bugs, please be sure to have clear and detailed information about the bug, with a solid reproduction. Please make sure to also link any relevant bug report threads from the devforums. When submitting a new bug, make sure to also create new symptoms in the symptoms list as well.
 
 ### Bug format
 

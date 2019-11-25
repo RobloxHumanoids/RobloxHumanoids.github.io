@@ -6,7 +6,7 @@ This is a list of known bugs with humanoids, containing detailed information abo
 
 ## Setting `Humanoid.HipHeight` to 0 on R15 rigs
 
-In any R15 rig, if you set `Humanoid.HipHeight` to 0, the humanoid will speed off in the direction it is facing when it makes contact with a surface, as if it were standing on a fast conveyor belt. This is due to the `HumanoidRootPart` touching the ground, which most likely causes miscalculation in collisions between the `HumanoidRootPart` and the surface it is on.
+In any R15 rig, if you set `Humanoid.HipHeight` to 0, the humanoid will speed off in the direction it is facing when it makes contact with a surface, as if it were standing on a fast conveyor belt. This is due to the `HumanoidRootPart` touching the ground, which most likely causes a miscalculation in collisions between the `HumanoidRootPart` and the surface it is on.
 
 ** Workarounds **
 
